@@ -10,10 +10,14 @@ def main():
 
 def make_sentence(quantity, tense):
     determiner = get_determiner(quantity)
+    adjective = get_adjective()
     noun = get_noun(quantity)
     verb = get_verb(quantity, tense)
-    prepositional_phrase = get_prepositional_phrase(quantity)
-    return f"{determiner.capitalize()} {noun} {verb} {prepositional_phrase}."
+    adverb = get_adverb()
+    prepositional_phrase1 = get_prepositional_phrase(quantity)
+    prepositional_phrase2 = get_prepositional_phrase(quantity)
+
+    return (f"{determiner.capitalize()} {adjective} {noun} {prepositional_phrase1} {adverb} {verb} {prepositional_phrase2}.")
 
 def get_determiner(quantity):
     if quantity == 1:
@@ -21,6 +25,10 @@ def get_determiner(quantity):
     else:
         words = ["some", "many", "the"]
     return random.choice(words)
+
+def get_adjective():
+    adjectives = ["happy", "sad", "angry", "excited", "bright", "dark", "small", "large", "red", "blue"]
+    return random.choice(adjectives)
 
 def get_noun(quantity):
     if quantity == 1:
@@ -37,6 +45,10 @@ def get_verb(quantity, tense):
     elif tense == "future":
         words = ["will drink", "will eat", "will grow", "will laugh", "will think", "will run", "will walk", "will write"]
     return random.choice(words)
+
+def get_adverb():
+    adverbs = ["quickly", "slowly", "happily", "sadly", "angrily", "eagerly", "gracefully", "awkwardly", "loudly", "quietly"]
+    return random.choice(adverbs)
 
 def get_preposition():
     words = ["about", "above", "across", "after", "along", "around", "at", "before", "behind", "below",
