@@ -1,0 +1,47 @@
+# Student: Caroline Pereira Da Silva
+# Course: CSE 111
+# Project: Expense Tracker with Data Visualization
+
+## 1. Table of Work
+
+============= Work Log ====================
+            Time Spent
+   Date       (hours)   Description of Work
+----------  ----------  -------------------------
+2025-02-12      2.0     Designed project structure, wrote `add_expense()` function
+2025-02-13      3.0     Implemented `view_expenses()`, `load_expenses_from_file()`, `get_category_summary()`
+2025-02-14      2.0     Developed `generate_monthly_report()`, `save_expenses_to_file()`
+2025-02-15      2.0     Integrated `matplotlib` for `plot_expense_trends()`, tested visualizations
+2025-02-16      2.0     Wrote `pytest` test functions, fixed test failures, debugging issues
+2025-02-17      1.0     Ensured all test cases pass, prepared final project files for submission
+
+**Total Hours Spent: 12.0 hours**
+============= Work Log ====================
+
+---
+
+## 2. Instructions
+
+`expense_tracker.py` - **Main program**  
+`test_expense_tracker.py` - **Unit tests with `pytest`**  
+`expenses.csv` - **Sample data file**  
+`project-report.txt` - **(This file)** 
+
+---
+
+## **Project Summary**
+The **Expense Tracker with Data Visualization** helps users track expenses, categorize spending, and visualize financial trends.  
+### Features:
+- **Record expenses** and save them to a CSV file
+- **View and summarize** expenses by category
+- **Generate monthly reports**  
+- **Visualize trends** using `matplotlib`  
+- **Unit tested** with `pytest` to ensure accuracy  
+
+---
+
+## **Testing and Debugging**
+✔ Used `pytest` to validate functions  
+✔ Debugged `test_add_expense()` by ensuring correct file handling  
+✔ Verified `matplotlib` graphs for accurate expense trends  
+✔ Final test results: **All tests passed successfully** 
