@@ -3,15 +3,16 @@ main {
 }
 
 aside {
+    display: block;
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
-
 
 aside img {
     width: 200px;
@@ -33,4 +34,26 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+nav {
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h1 {
+    text-decoration: none;
+}
+
+header, footer, .grid {
+    margin: 0 auto;
+    max-width: 840px;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
