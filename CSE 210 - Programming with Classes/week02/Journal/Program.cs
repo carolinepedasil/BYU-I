@@ -20,13 +20,11 @@ class Entry
         return $"[{Date}] {Prompt}\nResponse: {Response}\n";
     }
 
-    // Convert entry to a savable format
     public string ToFileFormat()
     {
         return $"{Date}|{Prompt}|{Response}";
     }
 
-    // Convert a file line into an Entry object
     public static Entry FromFileFormat(string line)
     {
         string[] parts = line.Split('|');
