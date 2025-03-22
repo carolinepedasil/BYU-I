@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\ScriptureMemorizer\\ScriptureMemorizer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\Fractions\\Fractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\Fractions\\Fractions.csproj",
+        "projectName": "Fractions",
+        "projectPath": "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\Fractions\\Fractions.csproj",
+        "packagesPath": "C:\\Users\\carol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\Fractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\carol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\ScriptureMemorizer\\ScriptureMemorizer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\ScriptureMemorizer\\ScriptureMemorizer.csproj",
+        "projectName": "ScriptureMemorizer",
+        "projectPath": "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\ScriptureMemorizer\\ScriptureMemorizer.csproj",
+        "packagesPath": "C:\\Users\\carol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\ScriptureMemorizer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\carol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\Fractions\\Fractions.csproj": {
+                "projectPath": "C:\\Users\\carol\\BYU-I\\CSE 210 - Programming with Classes\\week03\\Fractions\\Fractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
