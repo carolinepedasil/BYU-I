@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
+        // I exceeded the core requirements by:
+        // - Preventing already hidden words from being chosen again (better user experience).
+
         Reference reference = new Reference("Enos", 1, 15);
         string text = "Wherefore, I knowing that the Lord was able to preserve our records, I cried unto him continually, for he had said unto me: Whatsoever thing ye shall ask in faith, believing that ye shall receive in the name of Christ, ye shall receive it.";
         Scripture scripture = new Scripture(reference, text);
