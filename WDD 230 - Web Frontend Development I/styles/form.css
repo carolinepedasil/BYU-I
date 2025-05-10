@@ -1,0 +1,58 @@
+:root {
+    --text-color: #333;
+    --spacing: 1rem;
+  }
+  
+  text h1 {
+    text-align: center;
+    margin-bottom: var(--spacing);
+    color: var(--text-color);
+  }
+  
+  form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    padding: var(--spacing);
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+  }
+  
+  input, button, select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus, button:focus {
+    outline: 2px solid var(--text-color);
+  }
+  
+  button {
+    background-color: var(--text-color);
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #174bb3;
+    cursor: pointer;
+  }
+  
+  #rating-value {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  

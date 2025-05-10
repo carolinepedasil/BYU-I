@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the São Paulo Chamber of Commerce. Promoting businesses, economic growth, and tourism in São Paulo.">
+    <meta name="author" content="Caroline Pereira Da Silva">
+
+    <title>São Paulo Chamber of Commerce</title>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="São Paulo Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://carolinepedasil.github.io/wdd230/chamber/images/favicon.ico">
+    <meta property="og:url" content="https://carolinepedasil.github.io/wdd230">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script defer src="scripts/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>São Paulo Chamber of Commerce</h1>
+        <nav>
+            <button class="hamburger">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/sao-paulo-skyline.jpg" alt="São Paulo Skyline">
+            <h2>Welcome to the São Paulo Chamber of Commerce</h2>
+            <a href="join.html" class="cta-button">Join Us</a>
+        </section>
+
+        <section class="events">
+            <h2>Upcoming Events in São Paulo</h2>
+            <div class="event">
+                <h3>Carnival</h3>
+                <p><strong>Date:</strong> February (Annually)</p>
+                <p><strong>Location:</strong> Sambódromo do Anhembi</p>
+                <p>One of Brazil’s biggest Carnival celebrations with samba parades, street parties, and live music.</p>
+            </div>
+        </section>
+
+        <section class="weather">
+            <h2>São Paulo Weather</h2>
+            <p>☀️ Sunny, 28°C</p>
+        </section>
+
+        <section class="spotlights">
+            <h2>Business Spotlights</h2>
+            <div class="spotlight">
+                <img src="images/mercado-municipal.jpg" alt="Mercado Municipal">
+                <br>
+                <p>Discover the best local businesses in São Paulo, from tech startups to traditional markets.</p>
+            </div>
+            <div class="spotlight">
+                <img src="images/avenida-paulista.jpg" alt="Avenida Paulista">
+                <br>
+                <p>Join the largest business network in São Paulo, connecting thousands of entrepreneurs.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: info@spchamber.com | (11) 98765-4321</p>
+        <p>&copy; <span id="year"></span> Caroline Pereira Da Silva | WDD 230 Project</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+        document.getElementById("lastModified").textContent = document.lastModified;
+    </script>
+</body>
+</html>

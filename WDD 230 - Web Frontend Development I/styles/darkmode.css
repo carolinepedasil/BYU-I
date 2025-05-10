@@ -1,0 +1,21 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header.dark-mode {
+    background-color: #222;
+}
+
+nav.dark-mode ul li a {
+    color: #ffffff;
+}
+
+.card.dark-mode {
+    background-color: #333;
+    color: #ffffff;
+}
+
+footer.dark-mode {
+    background-color: #222;
+}

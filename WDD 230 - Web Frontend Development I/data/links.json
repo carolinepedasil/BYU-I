@@ -1,0 +1,11 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          { "url": "week01/chamber-site-plan.html", "title": "Chamber Site Plan" }
+        ]
+      }
+    ]
+  }
+  

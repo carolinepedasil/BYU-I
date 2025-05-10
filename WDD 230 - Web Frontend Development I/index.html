@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development | Caroline Pereira Da Silva | Course Assignment Portal">
+    <meta name="author" content="Caroline Pereira Da Silva">
+    <meta property="og:title" content="Caroline's Web Development Course Home Page">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development | Caroline Pereira Da Silva">
+    <meta property="og:url" content="https://carolinepedasil.github.io/wdd230">
+    <meta property="og:image" content="https://carolinepedasil.github.io/wdd230/images/favicon.ico">
+    <meta property="og:type" content="website">
+    
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <title>Caroline Pereira Da Silva - WDD 230 - Web Frontend Development</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/darkmode.css">    
+
+    <script defer src="scripts/getDates.js"></script>
+    <script defer src="scripts/menu.js"></script>
+    <script defer src="scripts/darkMode.js"></script>
+    <script defer src="scripts/pageCounter.js"></script>
+    <script defer src="scripts/weather.js"></script>
+    <script defer src="scripts/links.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/profile.png" alt="Caroline Pereira Da Silva Profile Photo" width="100">
+        <span>Caroline Pereira Da Silva</span>
+        <button id="menu-toggle">☰</button>
+        <button id="dark-mode-toggle">🌙</button>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <picture>
+            <source srcset="images/sao_paulo_brazil_temple.webp" media="(min-width: 600px)">
+            <img src="images/sao_paulo_brazil_temple.webp" alt="São Paulo Brazil Temple" loading="lazy">
+        </picture>
+        <div class="overlay">São Paulo Brazil Temple</div>
+        
+        <h1>WDD 230: Web Frontend Development</h1>
+    
+        <div class="card-container">
+            <section class="card">
+                <h2>Learning Activities</h2>
+                <ul id="learning-activities">
+                </ul>
+            </section>
+            
+            <section class="card" id="weather-card">
+                <h2>Information</h2>
+                <p id="weather">Loading weather...</p>
+                <p>Page Visits: <span id="visit-counter">0</span></p>
+            </section>
+        </div>
+        <br>
+    </main>
+    
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.836075149689!2d-46.674424524633054!3d-23.574481962381775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce574ea92b5b13%3A0xa6e4f1f21a7bcbbc!2sS%C3%A3o%20Paulo%20Brazil%20Temple!5e0!3m2!1sen!2sbr!4v1710607167601" 
+        class="responsive-frame"
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Caroline Pereira Da Silva | São Paulo, Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>

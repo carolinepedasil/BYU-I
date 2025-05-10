@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Shopping Eldorado",
+      "address": "Av. Rebouças, 3970 - Pinheiros, São Paulo",
+      "phone": "(11) 2197-7810",
+      "website": "https://www.shoppingeldorado.com.br",
+      "image": "eldorado.webp",
+      "membership": "Gold",
+      "description": "A traditional mall offering shopping, cinema, and dining options."
+    },
+    {
+      "name": "Shopping Pátio Paulista",
+      "address": "R. Treze de Maio, 1947 - Bela Vista, São Paulo",
+      "phone": "(11) 3191-1100",
+      "website": "https://www.shoppingpatiopaulista.com.br",
+      "image": "patio-paulista.webp",
+      "membership": "Silver",
+      "description": "Shopping mall located at the heart of Paulista Avenue."
+    },
+    {
+        "name": "Shopping Cidade São Paulo",
+        "address": "Av. Paulista, 1230 - Bela Vista, São Paulo",
+        "phone": "(11) 3595-1230",
+        "website": "https://www.shoppingcidadesp.com.br",
+        "image": "cidade-sao-paulo.jpg",
+        "membership": "Gold",
+        "description": "Modern mall on Paulista Avenue featuring fashion, dining, and entertainment."
+    },
+    {
+        "name": "Shopping Ibirapuera",
+        "address": "Av. Ibirapuera, 3103 - Moema, São Paulo",
+        "phone": "(11) 5095-2300",
+        "website": "https://www.shoppingibirapuera.com.br",
+        "image": "ibirapuera.jpg",
+        "membership": "Gold",
+        "description": "One of São Paulo’s oldest and largest malls, with diverse stores and services."
+    },
+    {
+        "name": "Shopping Iguatemi São Paulo",
+        "address": "Av. Brigadeiro Faria Lima, 2232 - Jardim Paulistano, São Paulo",
+        "phone": "(11) 3048-7300",
+        "website": "https://iguatemi.com.br/saopaulo",
+        "image": "iguatemi.webp",
+        "membership": "Gold",
+        "description": "One of the most luxurious malls in Brazil, offering designer boutiques and fine dining."
+    },
+    {
+        "name": "Shopping Morumbi",
+        "address": "Av. Roque Petroni Júnior, 1089 - Brooklin Novo, São Paulo",
+        "phone": "(11) 5189-4800",
+        "website": "https://www.morumbishopping.com.br",
+        "image": "morumbi.jpg",
+        "membership": "Gold",
+        "description": "A premier mall in São Paulo offering major retail brands and great dining options."
+    },
+    {
+        "name": "Shopping Aricanduva",
+        "address": "Av. Aricanduva, 5555 - Vila Matilde, São Paulo",
+        "phone": "(11) 3444-2000",
+        "website": "https://www.shoppingaricanduva.com.br",
+        "image": "aricanduva.jpeg",
+        "membership": "Silver",
+        "description": "One of Latin America's largest shopping centers with hundreds of stores and attractions."
+    },
+    {
+        "name": "Shopping Vila Olímpia",
+        "address": "R. Olimpíadas, 360 - Vila Olímpia, São Paulo",
+        "phone": "(11) 3047-6002",
+        "website": "https://www.shoppingvilaolimpia.com.br",
+        "image": "vila-olimpia.webp",
+        "membership": "Gold",
+        "description": "Modern shopping center with fashion brands, restaurants, and a high-end cinema complex."
+    }
+]
+  

@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 5%;
+    }
+
+    .nav-menu {
+        display: flex;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .spotlights {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spotlight {
+        max-width: 300px;
+    }
+}

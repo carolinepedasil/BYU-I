@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the São Paulo Chamber of Commerce. Promoting businesses, economic growth, and tourism in São Paulo.">
+    <meta name="author" content="Caroline Pereira Da Silva">
+
+    <title>São Paulo Chamber of Commerce</title>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="São Paulo Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://carolinepedasil.github.io/wdd230/chamber/images/favicon.ico">
+    <meta property="og:url" content="https://carolinepedasil.github.io/wdd230">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script defer src="scripts/script.js"></script>
+    <script defer src="scripts/visitTracker.js"></script>
+</head>
+<body>
+    <header>
+        <h1>São Paulo Chamber of Commerce and Discover</h1>
+        <nav>
+            <button class="hamburger">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="discover-layout">
+        <section class="sidebar">
+            <h2>About São Paulo</h2>
+            <br>
+            <ul>
+                <li><b>Population:</b> 12 million</li>
+                <li><b>Language:</b> Portuguese</li>
+                <li><b>Founded:</b> 1554</li>
+            </ul>
+            <br>
+            <div class="sidebar-section">
+                <h3>🍽️ Local Flavors</h3>
+                <p>Try São Paulo’s famous mortadella sandwich at the Municipal Market, or enjoy a traditional feijoada on Wednesdays and Saturdays!</p>
+            </div>
+            <br>
+            <div class="sidebar-section">
+                <h3>🎉 Upcoming Events</h3>
+                <ul>
+                    <li>📆 Mar 25: Startup Pitch Night</li>
+                    <li>📆 Apr 02: São Paulo Sustainability Forum</li>
+                    <li>📆 Apr 15: Local Artist Showcase</li>
+                </ul>
+            </div>
+            <br>
+            <div class="sidebar-section">
+                <h3>📌 Did You Know?</h3>
+                <p>São Paulo is home to the largest Japanese community outside of Japan!</p>
+            </div>
+            <br>
+            <p id="visit-message"></p>
+        </section>
+        
+        <section class="gallery">
+            <figure>
+                <img src="images/Catedral_Metropolitana_de_Sao_Paulo.jpg" alt="São Paulo Cathedral" loading="lazy">
+                <figcaption>São Paulo Cathedral</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Parque_da_Independencia.jpg" alt="Ipiranga Museum at Independence Park" loading="lazy">
+                <figcaption>Ipiranga Museum at Independence Park</figcaption>
+            </figure>
+            <figure>
+                <img src="images/MASP.jpg" alt="São Paulo Museum of Art on Paulista Avenue" loading="lazy">
+                <figcaption>São Paulo Museum of Art on Paulista Avenue</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Edificio_Altino_Arantes.jpg" alt="Altino Arantes Building in Downtown" loading="lazy">
+                <figcaption>Altino Arantes Building in Downtown</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Ponte_Estaiada_e_CENU.jpg" alt="Octávio Frias de Oliveira Bridge and CENU" loading="lazy">
+                <figcaption>Octávio Frias de Oliveira Bridge and CENU</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Teatro_Municipal_de_São_Paulo.jpg" alt="Municipal Theatre" loading="lazy">
+                <figcaption>Municipal Theatre</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Caroline Pereira Da Silva | São Paulo, Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>
