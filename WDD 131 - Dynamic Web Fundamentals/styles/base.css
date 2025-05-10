@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1D4265;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    max-width: none !important;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.navigation a:hover {
+    color: inherit;
+    background-color: transparent;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: #eee;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+    gap: 30px;
+}
+
+.about-me {
+    width: 66%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.resources {
+    width: 32%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-me h2, .resources h2 {
+    color: white;
+    background-color: #1D4265;
+    text-align: center;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.about-me p, .resources ul li {
+    color: black;
+}
+
+.about-me h3 {
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resources ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    flex-grow: 1;
+}
+
+.resources ul li {
+    margin: 10px 0;
+    color: black;
+    text-decoration: underline;
+}
+
+.resources ul li a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.sp-content {
+    display: flex;
+    align-items: center;
+}
+
+.left-image {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.right-image {
+    width: 120px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #1D4265;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.highlight {
+    color: yellow;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+form {
+    background-color: #f4f4f4;
+    max-width: 90%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  form label,
+  form legend {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="date"],
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+  }
+  
+  form fieldset {
+    border: none;
+    margin: 1.2rem 0;
+    padding: 0;
+  }
+  
+  form input[type="radio"],
+  form input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  .star-label {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    display: inline-block;
+  }
+  
+  form textarea {
+    min-height: 100px;
+  }
+  
+  form input[type="submit"] {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #1D4265;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #16334f;
+  }
+  
+  @media screen and (min-width: 600px) {
+    form {
+      max-width: 500px;
+    }
+  }
+  

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Caroline P. Silva">
+  <meta name="author" content="Caroline P. Silva">
+  <title>Review Confirmation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css" type="text/css">
+  <script src="scripts/form.js" defer></script>
+  <script>
+    window.onload = () => {
+      const params = new URLSearchParams(window.location.search);
+      const reviewCount = localStorage.getItem("reviewCount") || 0;
+      localStorage.setItem("reviewCount", parseInt(reviewCount) + 1);
+      
+      document.getElementById("counter").textContent = parseInt(reviewCount) + 1;
+
+      const output = document.getElementById("output");
+      for (const [key, value] of params) {
+        const p = document.createElement("p");
+        p.textContent = `${key}: ${value}`;
+        output.appendChild(p);
+      }
+    };
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Thank You for Your Review!</h1>
+  </header>
+  <main>
+    <p>Total Reviews Submitted: <strong id="counter"></strong></p>
+    <section id="output"></section>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> ❖ Caroline Pereira da Silva ❖ São Paulo, Brazil</p>
+    <p id="lastModified" class="yellow-text"></p>
+  </footer>
+</body>
+</html>

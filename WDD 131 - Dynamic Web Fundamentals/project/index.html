@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Brazil</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Explore Brazil</h1>
+    <p>Your travel guide to Brazil’s top destinations</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="food.html">Food</a></li>
+      <li><a href="tips.html">Tips</a></li>
+      <li><a href="references.html">References</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="destinations">
+      <h2>Top Destinations</h2>
+      <div class="card-grid">
+        <div class="card"><img src="images/saopaulo.jpg" alt="São Paulo" loading="lazy"><h3>São Paulo</h3></div>
+        <div class="card"><img src="images/rio.png" alt="Rio de Janeiro" loading="lazy"><h3>Rio de Janeiro</h3></div>
+        <div class="card"><img src="images/amazonia.jpg" alt="Amazon Rainforest" loading="lazy"><h3>Amazon Rainforest</h3></div>
+      </div>
+    </section>
+
+    <section id="interests">
+      <h2>Travel Interests</h2>
+      <p>Select your interests to get destination suggestions:</p>
+      <div class="buttons">
+        <button onclick="showSuggestion('beach')">🏖️ Beach</button>
+        <button onclick="showSuggestion('nature')">🌿 Nature</button>
+        <button onclick="showSuggestion('history')">🏛️ History</button>
+      </div>
+      <p id="suggestion"></p>
+    </section>
+
+    <section id="wishlist">
+      <h2>Custom Travel Wishlist</h2>
+      <form id="wishlistForm">
+        <label for="place">Destination Name:</label>
+        <input type="text" id="place" name="place" required>
+        <button type="submit">Add</button>
+      </form>
+      <ul id="wishlistItems"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ❖ Caroline Pereira da Silva ❖ Brazil | <a href="references.html">References</a></p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
